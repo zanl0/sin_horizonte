@@ -1,40 +1,390 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="SH.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sin Horizonte</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+
+<body class="body">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark aling ">
-      <div class="container">
-        <a class="navbar-brand" href="#">Sin Horizonte</a>
-        <div class="collapse navbar-collapse " id="navbarNav">
+    <nav class="imgf navbar navbar-expand-lg ">
+      <div class=" container">
+        <a class="navbar-brand text-black" href="#">Sin Horizonte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+            <li class="nav-item ">
+              <a class="nav-link text-black" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Viajes</a>
+              <a class="nav-link text-black" href="#">Viajes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Liging</a>
+              <a class="nav-link text-black" href="#">Loging</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-
-  <!-- Contenido de la página -->
-  <div class="container">
-    <!-- Aquí puedes agregar el contenido de tu página -->
+  <div>
+    <div class="texto-container">
+      <h3 class="texto-container">
+        🗺️Vuela hacia destinos internacionales con SIN HORIZONTE
+      </h3>
+    </div>
+    <p class="texto-parafo">RECORRE EL MUNDO</p>
   </div>
+  </div>
+  <!-- Carrusel -->
+  <div class="container py-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="aa col">
+        <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/santamarta.png" alt="">
+          <p>
+            bogota-santamarta
+          </p>
+          <h2>590.000</h2>
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      </div>
+      <div class="aa col">
+
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/medellin.jpg" alt="">
+          <p>
+            medellin-watape
+          </p>
+          <h2>200.000</h2>
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/ca.png" alt="">
+          <p>
+            bogota-cartagena
+          </p>
+          <h2>300.000</h2>
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="texto-container">
+      <h3 class="texto-container">
+        ¡Reserva tu Vuelo🛫 +Hotel🛎️ ¡Escápate a la playa!
+      </h3>
+    </div>
+    <p class="texto-parafo">DESTINOS NACIONALES E INTERNACIONALES</p>
+  </div>
+  <div class=" container py-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="aa col">
+        <div id=" cajas  carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES_PAQUETES_cartagena2.png" alt="">
+
+          <p>
+            cartagena +recorido playas+ hotel
+          </p>
+          <h2>866.000</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES_PAQUETES_punta+cana2.png" alt="">
+          <p>
+            punta cana+hotel+recorido turistico
+          </p>
+          <h2>300.000</h2>
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES_PAQUETES_santa+marta3.png" alt="">
+          <p>
+            santamarta+buseo+hotel
+          </p>
+          <h2>86.900</h2>
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="texto-container">
+      <h3 class="texto-container">
+        Hoteles en playas internacionales con hasta 66% OFF 😎
+      </h3>
+    </div>
+    <p class="texto-parafo">TUS MEJORES VACACIONES ⏩</p>
+  </div>
+  <div class="container py-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="aa col">
+        <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/MX_TILES_NEW_playa del carmen.png" alt="">
+          <p>
+            bogota-medellin
+          </p>
+          <h2>86.900</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES_PLAYA5.png" alt="">
+          <p>
+            bogota-medellin
+          </p>
+          <h2>86.900</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES+DESTINOS_miami.png" alt="">
+          <p>
+            bogota-cartagena
+          </p>
+          <h2>86.900</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="texto-container">
+      <h3 class="texto-container">
+        Compra en abril desde $73.990 y vuela por Colombia✈️
+      </h3>
+    </div>
+    <p class="texto-parafo">APLICA VALOR POR TRAYECTO Y DESTINOS SELECCIONADOS</p>
+  </div>
+  <div class="  container py-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="aa col">
+        <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/CO_TILES-PEREIRA-5+(1).png" alt="">
+          <p>
+            pereira
+          </p>
+          <h2>300.000</h2>
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <img src="./img/co-tiles-vuelos-mde-v4.jpg" alt="">
+          <p>
+            medellin
+          </p>
+          <h2>860.000</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+        </div>
+      </div>
+      <div class="aa col">
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <img class="imgs" src="./img/CO_TILES-VUELOS-BOGOTA1.png" alt="">
+          <p>
+          cartagena
+          </p>
+          <h2>86.900</h2>
+
+
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z"
+                  fill="currentColor"></path>
+              </svg>
+              comprar</span>
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer class="FOOT2">
+    <div class="container ">
+      <div class="footer-cont d-flex justify-content-between align-items-center text-white ">
+        <div class="categories-cont p-3">
+          <h6 class="text-dark">Categorías</h6>
+          <ul class="footer-list ">
+            <li class="ng-star-inserted"><a target="_blank" href="">Restaurantes</a></li>
+            <li class="ng-star-inserted"><a target="_blank" href="">Supermercados</a></li><!---->
+            <li class="ng-star-inserted"><a target="_blank" href="">HiFavor</a></li><!---->
+            <li class="ng-star-inserted"><a target="_blank" href="">Travelhorizont</a></li><!----><!---->
+          </ul>
+        </div>
+        <div class="legal-links-cont p-3">
+          <h6 class="text-dark">Información de interés</h6>
+          <ul class="footer-list">
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="">Quiero ser sinhorizont</a></li>
+            <!----><!---->
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="">Trabaja con nosotros</a></li>
+            <!----><!---->
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="">Registra tu aerolinea</a></li>
+            <!----><!---->
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="">Marketing, Performance &amp;
+                Insights</a></li>
+          </ul>
+        </div>
+        <div class="legal-links-cont p-3">
+          <h6 class="text-dark">Términos legales</h6>
+          <ul class="footer-list">
+            <li class="ng-star-inserted tex "><a rel="nofollow" target="_blank" href="" class="ng-star-inserted">Términos
+                y condiciones SH</a>
+            </li>
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="" class="ng-star-inserted">Aviso de
+                privacidad SH</a></li>
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="/terms" class="ng-star-inserted">Términos
+                y Condiciones Travel Moustache</a></li>
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="/private-policy"
+                class="ng-star-inserted">Política de Privacidad Travel SH</a></li>
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href="" class="ng-star-inserted">Aeronáutica
+                Civil</a></li>
+            <li class="ng-star-inserted"><a rel="nofollow" target="_blank" href=""
+                class="ng-star-inserted">Superintendencia de Industria y Comercio - SH</a></li>
+          </ul>
+        </div>
+        <div class="social-media-cont">
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
