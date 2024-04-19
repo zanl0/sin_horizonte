@@ -5,8 +5,10 @@
 
 body {
 
-  background-color: #db1f1f;
+  background: url(./img/aaa3.jpg);
+  background-size: cover;
 
+  background-repeat: no-repeat;
 
 }
 
@@ -28,14 +30,7 @@ header {
   padding-left: 8%;
 }
 
-img {
-  border-radius: 3%;
-  width: 350px;
-  height: 200px;
-  background-color: rgb(15, 13, 60);
-  box-shadow: 0px 10px 7px -5px #00d9ff;
 
-}
 
 .cajas {
   background-color: rgb(15, 13, 60);
@@ -55,11 +50,6 @@ p {
 
 }
 
-.carousel {
-  margin: 3px 3px;
-  box-shadow: 0px 10px 18px -3px rgba(0, 0, 0, 0.493);
-
-}
 
 .FOOT2 {
   background: url(./img/wave.svg);
@@ -125,7 +115,7 @@ p {
 
 .cssbuttons-io::before {
   content: "";
-  background: #000;
+  background: #02a4f0e0;
   width: 120%;
   left: -10%;
   transform: skew(30deg);
