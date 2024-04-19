@@ -1,0 +1,187 @@
+body{
+    background-color: #b7b7e9;
+    font-family: cursive;
+    
+    }
+
+    
+    .contenedor{
+        display: flex;
+        gap: 200px;
+        margin: 30px;
+        width: 800px;
+    }
+    
+    .notebox{
+        margin: 80px 100px;
+        line-height: 1.65;
+        display: block;
+        padding: 60px;
+        margin: 0;
+        padding-left: 20px;
+        border: 10px;
+    
+    }   
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 6em;
+        background-color: #141450;
+        border-radius: 25px;
+        transition: 0.4s ease-in-out;
+        margin: 5px;
+        color: #d1cfdb;
+    } 
+    
+    
+    .card {
+        background-image: linear-gradient(163deg, #00d9ff 0%, rgb(41, 163, 51) 100%);
+        border-radius: 50px;
+        transition: all 0.3s;  
+        margin: 100px 50px;}
+    
+    
+    .card2 {
+        border-radius: 0;
+        transition: all 0.2s;
+        font-size: 20px;
+    }
+    .card2:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+    }
+    
+    .card:hover {
+        box-shadow: 0px 0px 20px 1px rgba(33, 36, 188, 0.941);
+    }
+    
+    .card1:hover {
+        box-shadow: 0px 0px 20px 1px rgba(33, 36, 188, 0.941);
+    }
+    
+    #heading {
+        text-align: center;
+        margin: 2em;
+        color: rgb(163, 182, 188);
+        font-size: 1.2em;
+    }
+    
+    .documento{
+        display: flex;
+        font-size: 16px;
+        font-family: cursive;
+        color: rgba(250, 235, 215, 0.627);
+        justify-content: space-between;
+        
+    }
+    
+    
+    .field {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        border-radius: 25px;
+        padding: 0.6em;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #d1cfdb;
+        box-shadow: inset 2px 5px 10px #00d9ff;
+        margin-top: 20px;
+        
+    }
+
+
+    
+    
+    .input-icon {
+        height: 1.3em;
+        width: 1.3em;
+        fill: white;
+    }
+    
+    .input-field {
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: #554545;
+        font-size: 15px;
+    }
+    
+    .form .btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 2.5em;
+    }
+    
+    .button1 {
+        padding: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        transition: 0.4s ease-in-out;
+        background-color: #0f6426;
+        color: white;
+        cursor: pointer;
+        height: 60px;
+        width: 200px;
+        margin-right: 20px;
+        
+
+    }
+    
+    .button1:hover {
+        background-color: rgb(41, 163, 51);
+        color: white;
+        cursor: pointer;
+    }
+
+    
+    .parrafo2{
+        font-size: 10px;
+        
+    }
+
+    .botonventana{
+        padding: 0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        transition: 0.4s ease-in-out;
+        background-color: rgb(15, 13, 60);
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        
+    }
+    .botonventana{
+        height: 60px;
+        width: 200px;
+        text-align: center;
+    }
+    .botonventana:hover {
+        background-color: rgb(42, 37, 150);
+        color: white;}
+    .ventana{
+    background-color: #554545;
+    }
+    header { 
+        box-shadow: 0px 10px 7px -5px #00d9ff;
+        background: url(../assets/img/af3ce1c9-f51e-445e-94ef-dfff4f5076e8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 10px 7px -5px #000708;
+        box-shadow: 0px 10px 7px -5px #00d9ff;
+        width: 100%;
+        height: 10%;
+    }
