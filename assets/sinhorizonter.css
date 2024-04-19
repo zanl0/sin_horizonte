@@ -1,7 +1,8 @@
 body{
-    background-color: #b7b7e9;
     font-family: cursive;
-    
+    background-image:url(../assets/img/7d7240cf-9b9d-409a-9756-e88b048a3bdd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 
     
@@ -66,12 +67,12 @@ body{
         text-align: center;
         margin: 2em;
         color: rgb(163, 182, 188);
-        font-size: 1.2em;
+        font-size: 2em;
     }
     
     .documento{
         display: flex;
-        font-size: 16px;
+        font-size: 20px;
         font-family: cursive;
         color: rgba(250, 235, 215, 0.627);
         justify-content: space-between;
@@ -110,7 +111,7 @@ body{
         outline: none;
         width: 100%;
         color: #554545;
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .form .btn {
@@ -161,7 +162,7 @@ body{
         background-color: rgb(15, 13, 60);
         color: white;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 16px;
         
     }
     .botonventana{

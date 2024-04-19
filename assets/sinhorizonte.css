@@ -1,5 +1,7 @@
 body{
-    background-color: #b7b7e9;
+    background-image:url(../assets/img/7d7240cf-9b9d-409a-9756-e88b048a3bdd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: cursive;
     
     }
@@ -7,6 +9,7 @@ body{
         display: flex;
         gap: 200px;
         margin: 30px;
+        
     }
     .notebox{
         margin: 80px 100px;
@@ -54,11 +57,11 @@ body{
             text-align: center;
             margin: 2em;
             color: rgb(163, 182, 188);
-            font-size: 1.2em;
+            font-size: 2.0em;
         }
         .documento{
             display: flex;
-            font-size: 16px;
+            font-size: 20px;
             font-family: cursive;
             color: rgba(250, 235, 215, 0.627);
             justify-content: space-between;
@@ -83,7 +86,7 @@ body{
             outline: none;
             width: 50%;
             color: #554545;
-            font-size: 15px;
+            font-size: 18px;
         }
         .input-icon {
             height: 1.3em;
